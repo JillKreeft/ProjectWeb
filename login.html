@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <title>Aanmelden</title>
+    <link rel="stylesheet" type="text/css" href="./stylesheet/style.css">
+</head>
+<body>
+
+        <header>
+          <nav>
+              <div>
+                  <a href="index.html"><img src="./images/homeicon.png" alt="home icon"></a>
+              </div>
+              <div>
+                  <img src="./images/transavialogo.png" alt="transavia logo">
+              </div>
+              <div>
+                  <a href="./favorieten.html"><img src="./images/whiteheart.png" alt="favorieten icon"></a>
+                  <a href="./login.html"><img src="./images/loginicon.png" alt="login icon"></a>
+             </div>
+          </nav>
+   </header>
+
+    <main class="login">
+
+        <div class="navigatieknop">
+            <a href="index.html" class="back">Terug</a>
+        </div>
+
+        <section>
+                <form action="index.html">
+                    <fieldset>
+                       <legend>Login</legend>
+                        <label for="email">E-mail</label>
+                            <input id="email" type="email" name="email" placeholder="gebruiker@domein.nl" required>
+
+
+                            <label for="psword-login">Wachtwoord</label>
+                            <input id="psword-login" type="password" name="psw" required>
+
+                            <button class="button-roze" type="submit">Aanmelden</button>
+                    </fieldset>
+                </form>
+        </section>
+
+        <section>
+
+            <form action="index.html">
+                 <fieldset>
+                    <legend>Registreren</legend>
+                     <label for="first-name">Voornaam</label>
+                     <input id="first-name" type="text" name="firstname" required>
+
+                     <label for="last-name">Achternaam</label>
+                     <input id="last-name" type="text" name="lastname" required>
+
+
+                    <label for="date">Geboortedatum
+                        <input id="date" type="date" name="bday" required>
+                    </label>
+
+                    <label for="emailregist">E-mail</label>
+                        <input id="emailregist" type="email" name="emailregist" placeholder="gebruiker@domein.nl" required>
+
+                    <label>Wachtwoord
+                        <input id="password2" type="text" name="psw" required>
+                    </label>
+
+                    <label>Herhaal wachtwoord
+                        <input id="password3" type="text" name="psw" required>
+                    </label>
+
+                        <button class="button-roze" type="submit">Aanmelden</button>
+                </fieldset>
+            </form>
+
+       </section>
+
+
+    </main>
+
+</body>
+
+</html>
